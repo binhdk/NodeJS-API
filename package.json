@@ -1,0 +1,43 @@
+{
+  "name": "techshop-api",
+  "version": "1.0.0",
+  "description": "api for TechShop project in web and mobile app.",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binhdk/TechShop.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "nguyen van binh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binhdk/TechShop/issues"
+  },
+  "homepage": "https://github.com/binhdk/TechShop#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.1.0",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "mysql2": "^1.5.1",
+    "pg": "^7.4.0",
+    "sequelize": "^4.28.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.1"
+  }
+}
